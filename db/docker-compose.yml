@@ -1,0 +1,6 @@
+db: 
+    image: postgres
+    environment:
+        POSTGRES_DB: webbanhang
+    ports:
+        - "5432:5432"
